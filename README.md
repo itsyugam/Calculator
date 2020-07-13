@@ -1,35 +1,31 @@
-A graphical user interface(GUI) calculator.
+## A GUI bases simple calculator
 
-This calculator can perform all the functions-
+### Salient Features
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Square
+* Log
+* Percent
+* And all other basic operations.
 
-which is perform by a basic calculator.
-
-
-code is written in python(kivy).
-
-
-
-some information and syntax to use this calculator:-
-
-1.sqrt(value)
-
-
-2.pow(value1,value2)
-
-
-3.sin(value)
-
-
-4.cos(value)
+### How to use
+* Square root `sqrt(value)`
+* Power `pow(value1,value2)`
+* Sine `sin(value)`
+* Cosine `cos(value)`
+* Tangent `tan(value)`
+* Pi=π
+* Percentage = %
 
 
-5.tan(value)
+![Sample Interface](https://raw.githubusercontent.com/itsyugam/Calculator/master/Interface.jpeg)
+---
+The code is written purely in **Python** Using **Kivy** module.
 
 
-6.pi=π
-
-
-7.percentage=%
+All Suggestions and updates (PR) are welcome.
 
 
 
