@@ -16,6 +16,7 @@
 * Sine `sin(value)`
 * Cosine `cos(value)`
 * Tangent `tan(value)`
+* Log `log(value)`
 * Pi=π
 * Percentage = %
 
