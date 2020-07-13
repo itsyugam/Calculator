@@ -3,9 +3,13 @@ from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
+from kivy.core.window import Window
 
 #package for math calculation
 from math import *
+
+#for white background
+Window.clearcolor=(1,1,1,1)
 
 
 #class for first screen
