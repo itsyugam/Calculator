@@ -95,8 +95,8 @@ class Display(FloatLayout):
                      print(list)
                      m=len(list)
                      
-                     value=1
-                     for j in range(m-1):
+                     value=list[0]
+                     for j in range(1,m-1):
                         value=str(value)+"*"+str(list[j])
                      print(value)
                      result=float(eval(str(value)))*float(list[m-1])*0.01
@@ -109,8 +109,8 @@ class Display(FloatLayout):
                      print(list)
                      m=len(list)
                      
-                     value=0
-                     for j in range(m-1):
+                     value=list[0]
+                     for j in range(1,m-1):
                         value=str(value)+"+"+str(list[j])
                      print(value)
                      result=float(eval(str(value)))+float(eval(str(value)))*float(list[m-1])*0.01
@@ -123,8 +123,8 @@ class Display(FloatLayout):
                      print(list)
                      m=len(list)
                      
-                     value=0
-                     for j in range(m-1):
+                     value=list[0]
+                     for j in range(1,m-1):
                         value=str(value)+"-"+str(list[j])
                      print(value)
                      result=float(eval(str(value)))-float(eval(str(value)))*float(list[m-1])*0.01
@@ -137,8 +137,8 @@ class Display(FloatLayout):
                      print(list)
                      m=len(list)
                      
-                     value=0
-                     for j in range(m-1):
+                     value=list[0]
+                     for j in range(1,m-1):
                         value=str(value)+"/"+str(list[j])
                      print(value)
                      result=float(eval(str(value)))/float(eval(str(value)))*float(list[m-1])*0.01
